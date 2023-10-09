@@ -14,11 +14,6 @@ This tool is designed to search for sensitive information on web pages using reg
 git clone <your repository link>
 cd <name of your repository directory>
 ```
-- Install the necessary dependencies:
-```
-pip install -r requirements.txt
-```
-
 ## Usage:
 ```
 python3 main.py -t <number of threads> -d <delay between requests> -i <input URL file or a single URL> -o <output results file>
